@@ -1,4 +1,4 @@
-```python 
+
 alphabet= ['a','b','c','d','e','f','h','g','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 
 direction= input("Type 'encode' to encode or 'decode' to decode: \n").lower()
@@ -38,5 +38,5 @@ def caesar(origine_txt,shif_nuber,encode_decode):
         decode(origine_txt,shif_nuber)
     elif encode_decode == 'encode':
         print(f"Voici votre {encode_decode} des lettres:")
-        encode(origine_txt,shif_nuber)```
+        encode(origine_txt,shif_nuber)
 
